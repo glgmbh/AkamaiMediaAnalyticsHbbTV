@@ -15,9 +15,7 @@ This chapter explains the changes that need to be done to your (X)HTML code in o
 To use the library in your project, please reference the following scripts in your application:
 * The Akamai Media Analytics Generic JS API:
 http://79423.analytics.edgesuite.net/js/csma.js
-* The Akamai Media Analytics library for HbbTV:
-** HTTP: http://analytics.hbbtvlive.de/amahbbtvplugin.js
-** HTTPS: https://analytics.hbbtvlive.de/amahbbtvplugin.js
+* The Akamai Media Analytics library for HbbTV: http://analytics.hbbtvlive.de/amahbbtvplugin.js
 
 FIXXME Important: Please copy the akaplugin.js to your project, so it is located in the same directory as your HTML page.
 In HTML, this should look like this:
