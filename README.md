@@ -26,7 +26,7 @@ In HTML, this should look like this:
 ```
 
 ### 1.2.2.	Define the configuration XML path
-In addition to that, define a variable “AKAMAI_MEDIA_ANALYTICS_CONFIG_FILE_PATH” containing the URL pointing to your beacon file.
+In addition to that, define a variable “AKAMAI_MEDIA_ANALYTICS_CONFIG_FILE_PATH” containing the URL pointing to the beacon file that Akamai has individually provided for you.
 In HTML, this should look like this:
 ```
   <script type="text/javascript">
@@ -55,7 +55,7 @@ The complete HTML should look like this:
   </script>
   <script type="text/javascript"
    src="http://79423.analytics.edgesuite.net/js/csma.js"></script>
-  FIXXME <script type="text/javascript" src="akaplugin.js"></script>
+  <script type="text/javascript" src="amahbbtvplugin.js"></script>
 </head>
 <body>
   …
@@ -131,7 +131,7 @@ The following is a sample code to see the complete initialization.
     "category": "Movies"
   });
   var vid = document.getElementById("video");
-  vid.data = "https://gldashlive-i.akamaihd.net/dash/xxxx/hbbtv/player.mpd";
+  vid.data = "{URL of your DASH live stream mpd}";
   plugin.setVideo(vid);
   vid.play();
   plugin.handleSessionInit();
