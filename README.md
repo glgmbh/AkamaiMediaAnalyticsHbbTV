@@ -16,14 +16,15 @@ To use the library in your project, please reference the following scripts in yo
 * The Akamai Media Analytics Generic JS API:
 http://79423.analytics.edgesuite.net/js/csma.js
 * The Akamai Media Analytics library for HbbTV:
-FIXXME http://analytics.hbbtvlive.de/akaplugin.js
+** HTTP: http://analytics.hbbtvlive.de/amahbbtvplugin.js
+** HTTPS: https://analytics.hbbtvlive.de/amahbbtvplugin.js
 
 FIXXME Important: Please copy the akaplugin.js to your project, so it is located in the same directory as your HTML page.
 In HTML, this should look like this:
 ```
   <script type="text/javascript"
    src="http://79423.analytics.edgesuite.net/js/csma.js"></script>
-  FIXXME <script type="text/javascript" src="akaplugin.js"></script>
+  <script type="text/javascript" src="http://analytics.hbbtvlive.de/amahbbtvplugin.js"></script>
 ```
 
 ### 1.2.2.	Define the configuration XML path
